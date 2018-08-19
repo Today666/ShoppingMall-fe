@@ -75,7 +75,7 @@ var _ShopM ={
     },
     //同一登录处理
     doLogin : function(){
-        window.location.href = "./view/login.html?redirect="+encodeURIComponent(window.location.href);
+        window.location.href = "/dist/view/user-login.html?redirect="+encodeURIComponent(window.location.href);
     },
     goHome : function () {
         window.location.href = "./view/index.html";
